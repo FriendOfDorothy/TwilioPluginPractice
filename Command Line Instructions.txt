@@ -1,0 +1,17 @@
+# Start plugin locally
+twilio flex:plugins:start
+
+# Build, deploy and create a new major version of the plugin
+twilio flex:plugins:deploy --major --changelog "Adding state warning" --description "State warning plugin"
+
+# Create a configuration and a release with the new version of the plugin
+twilio flex:plugins:release --plugin plugin-state-warning@1.0.0 --name "State Warning" --description "Displays state warning for agents"
+
+# Start plugin locally
+twilio flex:plugins:start
+
+# Build, deploy and create a new major version of the plugin
+twilio flex:plugins:deploy --major --changelog "Adding state warning" --description "State warning plugin"
+
+# Create a configuration and a release with the new version of the plugin
+twilio flex:plugins:release --plugin plugin-state-warning@1.0.0 --name "State Warning" --description "Displays state warning for agents
