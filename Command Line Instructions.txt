@@ -1,3 +1,9 @@
+Start with a template plugin with the create command
+twilio flex:plugins:create plugin-state-warning --install
+
+# Or if you prefer a typescript project run
+twilio flex:plugins:create plugin-state-warning --install --typescript
+
 # Start plugin locally
 twilio flex:plugins:start
 
